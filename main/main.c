@@ -777,6 +777,7 @@ PHP_INI_BEGIN()
 	STD_PHP_INI_ENTRY("syslog.facility",		"LOG_USER",		PHP_INI_SYSTEM,		OnSetFacility,		syslog_facility,	php_core_globals,		core_globals)
 	STD_PHP_INI_ENTRY("syslog.ident",		"php",			PHP_INI_SYSTEM,		OnUpdateString,		syslog_ident,		php_core_globals,		core_globals)
 	STD_PHP_INI_ENTRY("syslog.filter",		"no-ctrl",		PHP_INI_ALL,		OnSetLogFilter,		syslog_filter,		php_core_globals, 		core_globals)
+	STD_PHP_INI_BOOLEAN("echoln",			"0",		PHP_INI_SYSTEM,		OnUpdateBool,			echoln,				php_core_globals,	core_globals)
 PHP_INI_END()
 /* }}} */
 

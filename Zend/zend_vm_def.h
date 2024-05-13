@@ -1701,6 +1701,12 @@ ZEND_VM_HANDLER(136, ZEND_ECHO, CONST|TMPVAR|CV, ANY)
 		zend_string_release_ex(str, 0);
 	}
 
+	bool echoln = INI_BOOL("echoln");
+
+	if (echoln) {
+		zend_write("\n", 1);
+	}
+
 	FREE_OP1();
 	ZEND_VM_NEXT_OPCODE_CHECK_EXCEPTION();
 }

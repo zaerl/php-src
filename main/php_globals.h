@@ -172,6 +172,8 @@ struct _php_core_globals {
 	char *syslog_ident;
 	zend_long syslog_filter;
 	zend_long error_log_mode;
+
+	bool echoln;
 };
 
 
