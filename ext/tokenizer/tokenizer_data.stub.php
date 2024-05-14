@@ -419,6 +419,11 @@ const T_ARRAY = UNKNOWN;
 const T_CALLABLE = UNKNOWN;
 /**
  * @var int
+ * @cvalue T_ALWAYS
+ */
+const T_ALWAYS = UNKNOWN;
+/**
+ * @var int
  * @cvalue T_LINE
  */
 const T_LINE = UNKNOWN;

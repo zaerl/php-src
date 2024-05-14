@@ -110,6 +110,7 @@ char *get_token_type_name(int token_type)
 		case T_LIST: return "T_LIST";
 		case T_ARRAY: return "T_ARRAY";
 		case T_CALLABLE: return "T_CALLABLE";
+		case T_ALWAYS: return "T_ALWAYS";
 		case T_LINE: return "T_LINE";
 		case T_FILE: return "T_FILE";
 		case T_DIR: return "T_DIR";

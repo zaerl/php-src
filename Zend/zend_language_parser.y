@@ -170,6 +170,7 @@ static YYSIZE_T zend_yytnamerr(char*, const char*);
 %token <ident> T_LIST            "'list'"
 %token <ident> T_ARRAY           "'array'"
 %token <ident> T_CALLABLE        "'callable'"
+%token <ident> T_ALWAYS        "'always'"
 %token <ident> T_LINE            "'__LINE__'"
 %token <ident> T_FILE            "'__FILE__'"
 %token <ident> T_DIR             "'__DIR__'"
